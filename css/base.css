@@ -304,6 +304,10 @@ a.frame__demos-item {
 	pointer-events: none;
 }
 
+.keuze {
+	z-index: 99;
+}
+
 .cursor {
 	height: 100%;
 	position: fixed;
@@ -311,7 +315,7 @@ a.frame__demos-item {
 	left: 0;
 	top: 0;
 	pointer-events: none;
-	z-index: 99;
+	z-index: 89;
 	mix-blend-mode: var(--cursor-blend-mode);
 	--size: calc(100vw / var(--columns));
 }
