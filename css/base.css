@@ -196,55 +196,6 @@ body #cdawrap {
     justify-self: start;
 }
 
-.frame a {
-	pointer-events: auto;
-}
-
-.frame__title {
-	grid-area: title;
-	display: flex;
-}
-
-.frame__title-main {
-	font-size: inherit;
-	margin: 0;
-	font-weight: inherit;
-}
-
-.frame__title-back {
-	position: relative;
-	display: flex;
-	align-items: flex-end;
-	margin-bottom: 0.15rem;
-}
-
-.frame__title-back span {
-	display: none;
-}
-
-.frame__title-back svg {
-	fill: currentColor;
-}
-
-.frame__prev {
-	grid-area: prev;
-}
-
-.frame__demos {
-	grid-area: demos;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 2rem;
-}
-
-.frame__demos-item:first-child {
-	width: 100%;
-}
-
-a.frame__demos-item {
-	font-weight: bold;
-}
-
 .content {
 	padding: 0 var(--page-padding);
 	display: flex;
