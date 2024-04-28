@@ -241,6 +241,16 @@ body #cdawrap {
 	pointer-events: none;
 }
 
+.content span {
+	margin: 3vh 0 0 0;
+	max-width: 30ch;
+	font-weight: 400;
+	font-size: clamp(.5rem,1vw,1rem);
+	font-variation-settings: "wght" 400, "opsz" 72, "ital" 0;
+	color: white;
+	pointer-events: none;
+}
+
 .keuze {
 	z-index: 999;
 	font-family: "lores-9-plus-wide", sans-serif;
