@@ -84,6 +84,7 @@
 	--cursor-radius: 50%;
 	--cursor-blend-mode: color-burn;
 	background-image: url(../img/bg7.jpg);
+	z-index: 9999;
 }
 
 .demo-8 {
